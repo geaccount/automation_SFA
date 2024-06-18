@@ -5,7 +5,7 @@ Feature: Test Authentication Functionality
   Background:
     Given User on home Page SFA system
 
-  @TS001 @TC001
+  @TS001 @TC001 @TestRun
   Scenario: Verify that users can successfully log in with valid credentials.
-    When User input username "your_username", the password "your_password" and clicks on the login button
+    When User input username "admin", the password "eskalink123" and clicks on the login button
     Then Get result login resource

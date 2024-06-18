@@ -40,7 +40,7 @@ public class Hooks {
 
     private static ChromeOptions getChromeOptions() {
         ChromeOptions chrome_options = new ChromeOptions();
-        chrome_options.addArguments("--headless=new");
+        //chrome_options.addArguments("--headless=new");//tidak memunculkan pop up testing
         chrome_options.addArguments("--incognito");
         chrome_options.addArguments("--remote-allow-origins=*");
         chrome_options.addArguments("--start-maximized");
